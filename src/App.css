@@ -56,7 +56,6 @@ body {
     justify-content: center;
     align-items: center;
     border-radius: 25px;
-    border: 2px solid black;
     filter: drop-shadow(rgb(88, 86, 81) 0.2rem 0.2rem 0.2rem);
 }
 
@@ -76,6 +75,5 @@ body {
     height: 20%;
     padding: 10px;
     border-radius: 10px;
-    border: 1px black solid;
     filter: drop-shadow(rgb(128, 116, 93) 0.2rem 0.2rem 0.2rem);
 }
