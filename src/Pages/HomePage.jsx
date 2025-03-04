@@ -8,13 +8,13 @@ export default function HomePage() {
             <h2>Highlights</h2>
             <section className="highlightSection">
                 <div className="highlight">
-                    <p>Highlight</p>
+                    <p>Seoul Born</p>
                 </div>
                 <div className="highlight">
-                    <p>Highlight</p>
+                    <p>Namaste Village</p>
                 </div>
                 <div className="highlight">
-                    <p>Highlight</p>
+                    <p>Thai Lana</p>
                 </div>
             </section>
         </section>

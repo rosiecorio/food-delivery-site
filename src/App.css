@@ -4,6 +4,7 @@
 body {
     margin: 0;
     font-family: "Righteous", sans-serif;
+    background-color: #a6c7c8;
 }
 
 /* Navbar styling */
@@ -49,12 +50,12 @@ body {
 
 .callToAction {
     height: 25vh;
-    background-color: wheat;
-    width: 95vw;
+    background-color: #f5deb3;
+    width: 90vw;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 20px;
+    border-radius: 25px;
     border: 2px solid black;
     filter: drop-shadow(rgb(88, 86, 81) 0.2rem 0.2rem 0.2rem);
 }
