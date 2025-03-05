@@ -1,7 +1,7 @@
 export default function HomePage() {
     return (
         <section className="homeContent pageContent">
-            <h1>Grub Hub</h1>
+            <img className="logo" src="./src/assets/grubhublogo.jpg"/>
             <div className="callToAction">
                 <h3>Call to action</h3>
             </div>

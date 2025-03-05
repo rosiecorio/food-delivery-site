@@ -3,6 +3,7 @@ import { BrowserRouter, Link, Routes, Route } from 'react-router-dom'
 import HomePage from './Pages/HomePage'
 import RestaurantsPage from './Pages/RestaurantsPage'
 import CheckoutPage from './Pages/CheckoutPage'
+import EachMenu from './Pages/EachMenu'
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
         <Routes>
           <Route path={"/"} element={<HomePage />} />
           <Route path={"/browse"} element={<RestaurantsPage />} />
+          <Route path={"/browse/:id"} element={<EachMenu />} />
           <Route path={"/checkout"} element={<CheckoutPage />} />
         </Routes>
       </BrowserRouter>
